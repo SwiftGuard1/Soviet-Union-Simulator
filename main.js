@@ -18,4 +18,7 @@ nukeWarning.src = "https://media.tenor.com/wtY8p60PXwUAAAAj/nuke-radio-active.gi
 const nukeExplosion = document.createElement("img");
 nukeExplosion.src = "https://media.tenor.com/igZCc-gVpjsAAAAj/%D0%B2%D0%B7%D1%80%D1%8B%D0%B2.gif";
 
+const destination = document.createElement("img");
+destination.src = "https://media.istockphoto.com/id/1281603402/photo/north-america-from-space.jpg?s=612x612&w=0&k=20&c=zpcVWdAidlU2BXXuXUgmHhc-8RPerStelip32HkJOBM=";
+
 document.body.appendChild(gameWindow);
