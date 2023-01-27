@@ -18,6 +18,12 @@ nuke.style.right = "35px";
 nuke.src = "https://www.brusselsreport.eu/wp-content/uploads/2022/05/atomic-bomb-g37cdc76d2_1280.png";
 
 const nukeWarning = document.createElement("img");
+nukeWarning.style.width = "80px";
+nukeWarning.style.height = "80px";
+nukeWarning.style.position = "fixed";
+nukeWarning.style.display = "none";
+nukeWarning.style.top = "20px";
+nukeWarning.style.right = "21px";
 nukeWarning.src = "https://media.tenor.com/wtY8p60PXwUAAAAj/nuke-radio-active.gif";
 
 const nukeExplosion = document.createElement("img");
@@ -28,3 +34,4 @@ destination.src = "https://media.istockphoto.com/id/1281603402/photo/north-ameri
 
 document.body.appendChild(gameWindow);
 document.body.appendChild(nuke);
+document.body.appendChild(nukeWarning);
