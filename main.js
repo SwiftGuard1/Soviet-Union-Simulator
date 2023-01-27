@@ -11,9 +11,9 @@ gameWindow.style.backgroundImage = "url('https://media.istockphoto.com/id/653967
 
 const nuke = document.createElement("img");
 nuke.style.width = "350px";
-nuke.style.height = "250px";
+nuke.style.height = "225px";
 nuke.style.position = "fixed";
-nuke.style.top = "75px";
+nuke.style.top = "90px";
 nuke.style.right = "35px";
 nuke.src = "https://www.brusselsreport.eu/wp-content/uploads/2022/05/atomic-bomb-g37cdc76d2_1280.png";
 
